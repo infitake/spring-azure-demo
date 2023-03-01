@@ -17,7 +17,7 @@ public class SpringAzureDemoApplication {
 	public String message(){
 		logger.log(Level.FINE,"Level.FINE");
 		logger.log(Level.INFO,"level.info");
-		logger.log(Level.SEVERE,"level.server");
+		logger.log(Level.SEVERE,"{\"severity\":\"WARN\", \"ts\":12345678, \"host\":\"myhostname.com\", \"message\":\"Failed to do something\"}\n");
 		logger.log(Level.WARNING,"level.warning");
 		return "Congrats ! your application deployed successfully in Azure Platform. !";
 	}
