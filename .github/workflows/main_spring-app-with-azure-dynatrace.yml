@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'spring-app-with-azure-dynatrace'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E40374144CE245D9A6FE1AD67464AD9C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51EB31E4B3224CF4BD1CA53D853A7003 }}
           package: '*.jar'
